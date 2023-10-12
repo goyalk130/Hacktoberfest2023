@@ -1,0 +1,239 @@
+<html>
+<head>
+    <title>Troppler.com</title>
+    <style>
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family: 'Verdana' }
+
+
+ header {
+  border:10px #fc0000;
+  border-radius: 10px;
+  background-color: #000000;
+  outline-color: #000000;
+  height: 160px;
+  font-family: 'Times New Roman', Times, serif;
+  font-color:rgb(255, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ff0000;}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  margin:8px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+.topnav a:hover {
+  border:10px #f70000;
+  border-radius: 10px;
+  margin: 6px;
+  background-color: #fffffffe;
+  color: black;
+  padding: 12px;}
+
+.topnav-center{
+  text-align: center;
+}
+
+.topnav-right {
+  float: right;}
+
+.icon {
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  width: 1350px;
+  height: 80px;
+  padding: 10px;
+  margin-left: 80px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content:space-around;
+  
+  }
+
+
+
+.container {
+  margin-left:px;
+  padding: 2px;
+  display:inline-block;
+  text-align:center;
+  }
+
+.book {
+  border: 2px solid #FF6978;
+  border-radius: 5px;
+  width: 170px;
+  height: 250px;
+  padding: 10px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  }
+
+div.scroll-container {
+  background-color: #000000;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.rounded-button {
+            background-color: red;
+            width: 150px;
+            height: 50px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            border: none; 
+            color: white; 
+            font-weight: bold; 
+            cursor: pointer;
+        }
+
+        .rounded-button:hover {
+            background-color: darkred;
+        }
+        #scrollToTopBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+  <header>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="C:\Users\Kavya\OneDrive\Desktop\TUNGSTER LOGO.jpg" height="100px" width="100px" style="vertical-align:middle" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color = "red"><BR><B>TUNGSTER</B></p></font>
+  </header>
+  <div class="topnav">
+    <font color="black">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <form action="https://www.google.com/search" method="get">
+      <div class="topnav-right">
+      <a href="#my accounth">My Account</a>
+      <a href="#about">About</a></font>
+    </div>
+
+      <br>
+      <div class="topnav-center">
+      <input type="text" name="q" placeholder="Search..." height="20px" width="400px">
+      <input type="submit" value="Go">
+      </div>
+     
+    </form>
+  </div>
+  <br>
+    <b>
+      <div class="icon">
+         <a href="https://www.youtube.com/watch?v=MifIfmAN2Mc&pp=ygUZbGVhcm4gdGFtaWwgdGhyb3VnaCBoaW5kaQ%3D%3D"><img src="C:\Users\Kavya\OneDrive\Desktop\indian icon.svg" alt="Indian Languages" style="width:70px;height:70px;"></a>
+       <a href="https://www.youtube.com/watch?v=91ptZp3Si0s&pp=ygUcbGVhcm4gZW5nbGlzaCBjb3Vyc2Ugb25lc2hvdA%3D%3D"><img src="C:\Users\Kavya\OneDrive\Desktop\japan icon.svg" alt="Test Ur Anime Love" style="width:70px;height:70px;"></a>
+       <a href="https://www.youtube.com/watch?v=AYRZupz6rdw&pp=ygUkbGVhcm4gcnVzc2lhbiBsYW5ndWFnZSBmb3IgYmVnaW5uZXJz"><img src="C:\Users\Kavya\OneDrive\Desktop\russian icon.svg"alt="Impress Girl,Learn Russian" style="width:70px;height:70px;"></a>
+       <a href="https://www.youtube.com/watch?v=-7woR4auqso&pp=ygUjbGVhcm4gZnJlbmNoIGxhbmd1YWdlIGZvciBiZWdpbm5lcnM%3D"><img src="C:\Users\Kavya\OneDrive\Desktop\france icon.png" alt="Language of Love" style="width:70px;height:70px;"></a>
+       <a href="https://www.youtube.com/watch?v=RuGmc662HDg&list=PLF9mJC4RrjIhS4MMm0x72-qWEn1LRvPuW" alt="Hitler Rule Language" style="width:70px;height:70px;"></a>
+       <a href="https://www.youtube.com/watch?v=8IUlF0ckalA&pp=ygUkbGVhcm4gaXJhbmVzZSBsYW5ndWFnZSBmb3IgYmVnaW5uZXJz"><img src="C:\Users\Kavya\OneDrive\Desktop\iran icon.png" alt="Iranese" style="width:70px;height:70px;"></a>
+       <a href="https://www.youtube.com/watch?v=vo-Toilsx30&pp=ygUjbGVhcm4ga29yZWFuIGxhbmd1YWdlIGZvciBiZWdpbm5lcnM%3D"><img src="C:\Users\Kavya\OneDrive\Desktop\korea icon.png" alt="Hot Korean Like Noodles" style="width:70px;height:70px;"></a>
+      </div>
+
+    </b>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><h1><font color="red">Lets Equip the Weapon Of Language</h1>
+    <button class="rounded-button" style="background-color: red; width: 250px; height: 50px;"><a href="C:\Users\Kavya\OneDrive\Desktop\Project\IndianMap.html">Get Started</a></button>
+    <br>
+    <br>
+    <button class="rounded-button" style="background-color: red; width: 250px; height: 50px;"><a href="C:\Users\Kavya\OneDrive\Desktop\Project\LoginPageProject.html">I Already Have An Account</a></button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>free.fun<br>effective.</h1>
+    <br>
+    Firing with Tungster is fun, and research<br> shows that it works! With quick,<br> bite-sized lessons with<br> real-world communication skills.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>backed by military research</h1>
+    <br>
+    We use a combination of research-backed<br> teaching methods and delightful content to<br> create courses that effectively teach reading,<br> writing, listening, and speaking skills!
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>personalized training</h1>
+    <br>
+    Combining the best of Google Engine and language<br> science, lessons are tailored to help you<br> learn at just the right level and pace
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>motivation is bullets</h1>
+    <br>
+    We make it easy to form a habit of language<br> learning with weapon-like features,<br>fun shoots, and reminders <br>from our friendly AK47.
+    <br>
+    <br>
+    <br>
+    <h1>learn anytime.,<br>anywhere</h1>
+    <br>
+    <button class="rounded-button" id="scrollToTopBtn">Scroll to Top</button>
+    <script src="script.js"></script>
+    
+
+
+
+
+
+
+
+
+
+<br>
+<div class="scroll-container">
+  <img src="C:\Users\Kavya\OneDrive\Desktop\banner1.webp" alt="Cinque Terre" width="500" height="400">
+  <img src="C:\Users\Kavya\OneDrive\Desktop\hindi banner.avif" alt="Forest" width="550" height="400">
+  <img src="https://img.freepik.com/free-vector/translator-concept-illustration_114360-6154.jpg?w=740&t=st=1695897181~exp=1695897781~hmac=4ba21530ac59d3110ebd642c4ad4bf56c12db04a421d03072852dc192b913090" alt="Northern Lights" width="750" height="400">
+  <img src="https://img.freepik.com/free-vector/illustrations-young-people-talking-different-languages-group_23-2148375156.jpg?w=1060&t=st=1695897248~exp=1695897848~hmac=5c5e39bc1c8fb54bbe8c09f102c1d9999a110bad157eb43d4c1691fc3a38248f" alt="Mountains" width="450" height="400">
+  <img src="https://img.freepik.com/free-vector/flat-international-mother-language-day-landing-page-template_23-2149229957.jpg?w=1060&t=st=1695897277~exp=1695897877~hmac=8b94e2a956a5177d6845c5d1551d9ceecdd358e668ed32be81254c85d8fb79ad" alt="Forest" width="450" height="400">
+  <img src="https://img.freepik.com/free-vector/people-communicating-different-languages_23-2148367586.jpg?w=1060&t=st=1695897294~exp=1695897894~hmac=8718854db7d81203440af1287ef4caf143e8940d922881a52a158507c096cacc" alt="Northern Lights" width="450" height="400">
+  <img src="https://www.bookswagon.com/bannerimages/86_inr.jpg?v=2.5" alt="Mountains" width="1450" height="400">
+</div>
+</div>
+
+</body>
+</html>
